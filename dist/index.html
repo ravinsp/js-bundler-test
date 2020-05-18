@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="bundle.js"></script>
+        <script>
+            function handleClick() {
+
+                // Call the function defined in the bundle.js
+                var output = mylib.myfunc();
+                alert("Output from Ripple hex: " + output);
+                
+            }
+        </script>
+    </head>
+    <body>
+
+        <p>
+            <button style="padding: 50px;" onclick="handleClick()">Click me</button>
+        </p>
+        
+    </body>
+</html>
