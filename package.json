@@ -1,0 +1,15 @@
+{
+  "name": "aldo-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ripple-lib": "1.7.0"
+  },
+  "scripts": {
+    "bundle": "browserify -p tinyify src/app.js -o dist/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "16.5.1",
+    "tinyify": "2.5.2"
+  }
+}
