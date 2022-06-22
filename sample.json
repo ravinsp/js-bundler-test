@@ -1,0 +1,25 @@
+{
+  "ignore": [
+    "reading '$el'",
+    "reading 'focus'",
+    "Blocked a restricted frame",
+    "getBoundingClientRect",
+    "evaluating 'window.open",
+    "Custom cursors with size greater than",
+    "Network Error",
+    "hostname could not be found",
+    "'active' of undefined",
+    "Load failed",
+    "e is null",
+    "$el",
+    "Cannot read properties of undefined (reading",
+    "Custom cursors with size greater",
+    "ReportingObserver",
+    "ResizeObserver",
+    "window.open",
+    "chrome-extension",
+    "Cannot read property 'focus' of null",
+    "Non-Error promise rejection captured with value",
+    "Non-Error promise rejection captured with keys"
+  ]
+}
